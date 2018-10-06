@@ -4,6 +4,7 @@ import EndView from './EndView';
 import TaskView from './TaskView';
 import route from './route';
 import './App.css';
+import 'normalize.css';
 
 class App extends Component {
   constructor(props) {
