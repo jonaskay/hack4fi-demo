@@ -2,23 +2,105 @@
   "tasks": [
     {
       "lat": 60.164609088755135,
-      "lng": 24.94903922080994
+      "lng": 24.94903922080994,
+      "title": "Changing Places",
+      "description": "I.K. Inha photographed Helsinki in the summer of 1908 on a commission to produce pictures for the first guide book written in Finnish for visitors of Helsinki. Inha photographed many of the new buildings of Helsinki, for example the Kaartinhalli Market Hall as seen in this picture. In 1908 Jugend style was the new, fashionable architectural trend but opinions changed and in 1950 the building was torn down and replaced with a new building in a new, fashionable style, Expo hall, that you can see on the square now.",
+      "image": {
+        "file": "kasarmitori.jpg",
+        "caption": "I.K Inha: Market Hall, Kasarmitori Square, 1908"
+      },
+      "steps": [
+        {
+          "body": "Find the location where this picture was taken 110 years ago"
+        },
+        {
+          "body": "Look around: what has changed and what has remained the same?"
+        }
+      ]
     },
     {
       "lat": 60.16750199582629,
-      "lng": 24.954349994659427
+      "lng": 24.954349994659427,
+      "title": "Helsinki Weather",
+      "description": "Look at this footwear! Weather-proof clothes are important in the often harsh weather of Helsinki. (If it’s sunny, you’re lucky.) It is highly probable that it is raining right now (xx % ). Look around and find rubber boots. Did you know that Nokia company used to make rubber boots as well?",
+      "image": {
+        "file": "saappaat.jpg",
+        "caption": "Unknown photographer: Examinating rubber boots, 1959, Nokia"
+      },
+      "steps": [
+        {
+          "body": "Take a moment to experience the current weather, bypassers and their gear."
+        },
+        {
+          "body": "Take a photo that would best describe the weather."
+        },
+        {
+          "body": "Share the photo with your friends."
+        }
+      ]
     },
     {
       "lat": 60.16901239775532,
-      "lng": 24.945745468139652
+      "lng": 24.945745468139652,
+      "title": "Crispbread",
+      "description": "(Finnish people have always valued/been keen to know expert opinion/the views of the foreigners). Here a group of foreign visitors (experts) are tasting crispbread of the influential Elanto cooperative (started by bakers in 1905) in the 1930’s. The building at Aleksanterinkatu 9 was built as the modern Elanto department store in 1953. Crispbread, usually made of dark rye flour has maintained a strong stand as an everyday xxxxx enjoyed at home as well as part of school meals across Finland. Today the building still houses a shopping center, and you can still buy crispbread here! (Step in, wander to the crispbread shelves and grap a packet to join the long line (maybe not…?) of the foreign crispbread experts visiting Finland. Also one of the first self-service shops of Elanto in Helsinki was opened in the same cross roads in 1953)",
+      "image": {
+        "file": "nakkileipa.jpg",
+        "caption": "Unknown photographer: Foreign visitors tasting crispy bread produced by Co-operative Elanto. 1930's, Helsinki"
+      },
+      "steps": [
+        {
+          "body": "Step in and look for a grocery store."
+        },
+        {
+          "body": "Wander between the shelves and look for “näkkileipä” - the Finnish crispbread."
+        },
+        {
+          "body": "Purchase some bread and have a taste! Document your experience and let us know what you think. How many shapes and types of crispbread did you find? What kind of flavours and textures did you experience? Which one was your favourite?"
+        }
+      ]
     },
     {
       "lat": 60.16993568346636,
-      "lng": 24.95224714279175
+      "lng": 24.95224714279175,
+      "title": "Rephotography",
+      "description": "Lorem ipsum.",
+      "image": {
+        "file": "senaatintori.jpg",
+        "caption": "I.K. Inha: Steps of Helsinki Catedral, 1908"
+      },
+      "steps": [
+        {
+          "body": "Look for the place where I.K. Inha took this photograph."
+        },
+        {
+          "body": "Ask for a passerby to pose for you or with you. Re-create Inha’s photo or your own version of it."
+        },
+        {
+          "body": "Share your picture in the app."
+        }
+      ]
     },
     {
       "lat": 60.17676612419965,
-      "lng": 24.95020866394043
+      "lng": 24.95020866394043,
+      "title": "Korvapuusti",
+      "description": "Unioninkatu street’s name changes to Siltasaarenkatu street on the Pitkäsilta bridge. The bridge marks the border of bourgeois downtown and working class district of Kallio. In 1950’s Workers Co-operative Elanto opened this fashionable cafe, decorated after examples in Stockholm, on Siltasaarenkatu. Finland was slowly recovering from WWII and the people of Kallio started to afford small everyday luxuries like cup of coffee and a sweet bun a.k.a ‘pulla’.",
+      "image": {
+        "file": "kahvila.jpg",
+        "caption": "Unknown photographer: Cafeteria at Siltasaarenkatu, 1950"
+      },
+      "steps": [
+        {
+          "body": "Find Siltasaarenkatu."
+        },
+        {
+          "body": "Find a cafe on that street and order coffee and pulla."
+        },
+        {
+          "body": "Experience the smells of the cafe - they are the same as 68 years ago."
+        }
+      ]
     }
   ]
 }
