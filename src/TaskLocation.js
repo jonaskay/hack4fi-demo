@@ -3,10 +3,12 @@ import Map from './Map';
 
 export default class TaskLocation extends Component {
   initMarker(map) {
+    const {task} = this.props;
+
     new window.google.maps.Marker({
-      position: new window.google.maps.LatLng(this.props.task.lat, this.props.task.lng),
+      position: new window.google.maps.LatLng(task.lat, task.lng),
       map: map,
-      title: 'Hello World!'
+      title: task.title
     });
   }
 
