@@ -8,11 +8,11 @@ import './App.css';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {currentTaskIndex: '', ended: false};
+    this.state = {currentTaskIndex: -1, ended: false};
   }
 
   start() {
-    this.setState({currentTaskIndex: 1});
+    this.setState({currentTaskIndex: 0});
   }
 
   next() {
@@ -33,10 +33,10 @@ class App extends Component {
     if (this.state.ended) {
       view = <EndView onButtonClick={() => this.start()} />
     } else {
-      if (this.state.currentTaskIndex) {
-        view = <TaskView task={this.currentTask()} onNext={() => this.next()} />
-      } else {
+      if (this.state.currentTaskIndex < 0) {
         view = <StartView tasks={route.tasks} onButtonClick={() => this.start()} />
+      } else {
+        view = <TaskView task={this.currentTask()} onNext={() => this.next()} />
       }
     }
 
