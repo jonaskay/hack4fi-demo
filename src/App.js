@@ -1,25 +1,48 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import StartView from './StartView';
+import EndView from './EndView';
+import TaskView from './TaskView';
+import route from './route';
 import './App.css';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {currentTaskIndex: '', ended: false};
+  }
+
+  start() {
+    this.setState({currentTaskIndex: 1});
+  }
+
+  next() {
+    const nextTaskIndex = this.state.currentTaskIndex + 1;
+    if (nextTaskIndex < route.tasks.length) {
+      this.setState({currentTaskIndex: nextTaskIndex});
+    } else {
+      this.setState({ended: true});
+    }
+  }
+
+  currentTask() {
+    return route.tasks[this.state.currentTaskIndex];
+  }
+
   render() {
+    let view;
+    if (this.state.ended) {
+      view = <EndView onButtonClick={() => this.start()} />
+    } else {
+      if (this.state.currentTaskIndex) {
+        view = <TaskView task={this.currentTask()} onNext={() => this.next()} />
+      } else {
+        view = <StartView tasks={route.tasks} onButtonClick={() => this.start()} />
+      }
+    }
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div style={{height: '100vh'}}>
+        {view}
       </div>
     );
   }
