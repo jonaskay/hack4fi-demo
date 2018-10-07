@@ -108,10 +108,8 @@
           "body": "Experience the smells of the cafe - they are the same as 68 years ago."
         }
       ]
-    }
-  ]
-},
-{
+    },
+    {
       "lat": 60.179063,
       "lng": 24.951055924317856,
       "title": "The Market Square",
@@ -134,7 +132,3 @@
     }
   ]
 }
-
-
-
-
