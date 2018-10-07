@@ -110,8 +110,30 @@
       ]
     }
   ]
+},
+{
+      "lat": 60.179063,
+      "lng": 24.951055924317856,
+      "title": "The Market Square",
+      "description": "“Torilla tavataan” (“Let’s meet at the market square”) became famous phrase after 1995 when Finland won ice hockey championship their first time and people went to market square celebrate. Since that it have be somehow tradition to meet at market every time Finns win something big, for example eurovision song contest 2006. Next time when you see someone commenting your favorite finland related  meme “torilla tavataan” or “let’s meet at the market square” you know they are proud finns who are happy someone pays attention them.",
+      "image": {
+        "file": "nakkikioski.jpg",
+        "caption": "Unknown photographer: Grill at the Helsinki Railway Square, 1960's. The Finnish Museum of Photography."
+      },
+      "steps": [
+        {
+          "body": "Find the nearest market square."
+        },
+        {
+          "body": "Eat some street food or buy some souvenirs."
+        },
+        {
+          "body": "Post it to instagram with #xx and tell your opinion."
+        }
+      ]
+    }
+  ]
 }
-
 
 
 
