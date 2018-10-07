@@ -28,7 +28,7 @@
       "lat": 60.16750199582629,
       "lng": 24.954349994659427,
       "title": "Helsinki Weather",
-      "description": ""Look at this footwear!" In the photo you can see two gentlemen at the Nokia Factory examining brand new rubber boots. Finns are generally bad at small talk, but always happy to discuss weather. Weather-proof clothes are important in the often harsh weather of Helsinki. Did you know that Nokia company used to make rubber boots as well? Nokia has had various industries in its 150 years history. It was founded as a pulp mill and was long known for rubber products and cables, but since the 1990’s focused on telecommunications. The Finnish Museum of Photography is located in former Nokia Cable factory.",
+      "description": "'Look at this footwear!' In the photo you can see two gentlemen at the Nokia Factory examining brand new rubber boots. Finns are generally bad at small talk, but always happy to discuss weather. Weather-proof clothes are important in the often harsh weather of Helsinki. Did you know that Nokia company used to make rubber boots as well? Nokia has had various industries in its 150 years history. It was founded as a pulp mill and was long known for rubber products and cables, but since the 1990’s focused on telecommunications. The Finnish Museum of Photography is located in former Nokia Cable factory.",
       "image": {
         "file": "saappaat.jpg",
         "caption": "Unknown photographer: Examining rubber boots, 1959, Nokia. The Finnish Museum of Photography."
@@ -69,21 +69,24 @@
     {
       "lat": 60.16993568346636,
       "lng": 24.95224714279175,
-      "title": "Rephotography",
+      "title": "Iconic Steps",
       "description": "Senaatintori steps.",
       "image": {
         "file": "senaatintori.jpg",
-        "caption": "I.K. Inha: Steps of Helsinki Catedral, 1908"
+        "caption": "I.K. Inha: Steps of Helsinki Catedral, 1908. The Finnish Museum of Photography."
       },
       "steps": [
         {
           "body": "Look for the place where I.K. Inha took this photograph."
         },
         {
-          "body": "Ask for a passerby to pose for you or with you. Re-create Inha’s photo or your own version of it."
+          "body": "Take a moment, have a seat and admire the view from above."
         },
         {
-          "body": "Share your picture in the app."
+          "body": "Ask for a passerby to pose for you or with you. Re-create Inha’s photo or make your own version of it."
+        },
+        {
+          "body": "Share your picture on social media with hashtag."
         }
       ]
     },
