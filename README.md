@@ -1,6 +1,6 @@
 # Hack4FI Demo: Time Träveller
 
-![Screenshot of Time Träveller](src/assets/screenshot.png "Screenshot of Time Träveller")
+![Screenshot of Time Träveller](screenshot.png "Screenshot of Time Träveller")
 
 ## About
 
