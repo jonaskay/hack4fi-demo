@@ -10,7 +10,7 @@ export default class TaskView extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    if (this.props.task !== prevProps.task) {
+    if (this.props.currentTaskIndex !== prevProps.currentTaskIndex) {
       this.setState({arrived: false});
     }
   }
@@ -27,8 +27,8 @@ export default class TaskView extends Component {
     return(
       <div style={{height: '100%', display: 'flex', flexDirection: 'column'}}>
         {this.state.arrived ?
-          <TaskDescription task={this.props.task} onButtonClick={() => this.next()} /> :
-          <TaskLocation task={this.props.task} onButtonClick={() => this.arrive()} />}
+          <TaskDescription task={this.props.tasks[this.props.currentTaskIndex]} onButtonClick={() => this.next()} /> :
+          <TaskLocation tasks={this.props.tasks} currentTaskIndex={this.props.currentTaskIndex} onButtonClick={() => this.arrive()} />}
       </div>
     );
   }

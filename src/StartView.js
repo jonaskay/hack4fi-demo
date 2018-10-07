@@ -6,7 +6,7 @@ export default class StartView extends Component {
     const buttonStyle = {height: '3rem'};
     return(
       <div style={{height: '100%', display: 'flex', flexDirection: 'column'}}>
-        <DirectionsMap tasks={this.props.tasks} />
+        <DirectionsMap tasks={this.props.tasks} currentTaskIndex={0} />
         <button onClick={() => this.props.onButtonClick()} style={buttonStyle}>Start</button>
       </div>
     )

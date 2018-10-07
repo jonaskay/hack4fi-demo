@@ -16,7 +16,7 @@ export default class DirectionsMap extends Component {
     });
 
     const directionsService = new window.google.maps.DirectionsService;
-    const directionsDisplay = new window.google.maps.DirectionsRenderer;
+    const directionsDisplay = new window.google.maps.DirectionsRenderer({preserveViewport: true});
     directionsDisplay.setMap(map);
 
     directionsService.route({
@@ -34,8 +34,9 @@ export default class DirectionsMap extends Component {
   }
 
   render() {
-    const lat = this.props.tasks[0].lat;
-    const lng = this.props.tasks[0].lng;
+    const taskIndex = this.props.currentTaskIndex < 0 ? 0 : this.props.currentTaskIndex;
+    const lat = this.props.tasks[taskIndex].lat;
+    const lng = this.props.tasks[taskIndex].lng;
 
     return (
       <div style={{width: '100%', flexGrow: 1, position: 'relative'}}>

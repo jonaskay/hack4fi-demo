@@ -37,7 +37,7 @@ class App extends Component {
       if (this.state.currentTaskIndex < 0) {
         view = <StartView tasks={route.tasks} onButtonClick={() => this.start()} />
       } else {
-        view = <TaskView task={this.currentTask()} onNext={() => this.next()} />
+        view = <TaskView tasks={route.tasks} currentTaskIndex={this.state.currentTaskIndex} onNext={() => this.next()} />
       }
     }
 
