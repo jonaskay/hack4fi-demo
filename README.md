@@ -1,3 +1,11 @@
+# Hack4FI Demo: Time Träveller
+
+![Screenshot of Time Träveller](src/assets/screenshot.png "Screenshot of Time Träveller")
+
+## About
+
+This is a demo app built during the [Hack4FI 2018](http://hack4.fi/) hackathon. You can use Time Träveller to tour around Helsinki while completing fun tasks. The insipiration for the project comes from [The Finnish Museum of Photography](https://www.valokuvataiteenmuseo.fi/en) and their albums available on [Flickr](https://www.flickr.com/photos/valokuvataiteenmuseo/albums/with/72157676384900225). Time Träveller is optimized for mobile devices.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
