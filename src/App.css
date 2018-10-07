@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow:400,600');
+@import url('https://fonts.googleapis.com/css?family=Faster+One');
 
 .App {
   font-family: 'Barlow', sans-serif;
+}
+
+.App-brand {
+  font-family: 'Faster One', cursive;
 }
 
 .App-logo {
