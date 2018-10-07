@@ -25,6 +25,10 @@ class App extends Component {
     }
   }
 
+  restart() {
+    this.setState({currentTaskIndex: -1, ended: false});
+  }
+
   currentTask() {
     return route.tasks[this.state.currentTaskIndex];
   }
@@ -32,7 +36,7 @@ class App extends Component {
   render() {
     let view;
     if (this.state.ended) {
-      view = <EndView onButtonClick={() => this.start()} />
+      view = <EndView onButtonClick={() => this.restart()} stepCount={route.tasks.length} />
     } else {
       if (this.state.currentTaskIndex < 0) {
         view = <StartView tasks={route.tasks} onButtonClick={() => this.start()} />
