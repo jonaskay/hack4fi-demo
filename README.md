@@ -6,12 +6,16 @@
 
 This is a demo app built during the [Hack4FI 2018](http://hack4.fi/) hackathon. You can use Time Träveller to tour around Helsinki while completing fun tasks. The insipiration for the project comes from [The Finnish Museum of Photography](https://www.valokuvataiteenmuseo.fi/en) and their albums available on [Flickr](https://www.flickr.com/photos/valokuvataiteenmuseo/albums/with/72157676384900225). Time Träveller is optimized for mobile devices.
 
+## Adding Tasks
+
+Task information is stored in [src/route.json](src/route.json). Task images are stored in [src/assets](src/assets). When adding new tasks, make sure that the image file exists in [src/assets](src/assets) and it has been named according to the [src/route.json](src/route.json).
+
+## Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md).
-
-## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
 - [Sending Feedback](#sending-feedback)
