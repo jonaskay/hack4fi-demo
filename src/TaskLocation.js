@@ -19,6 +19,8 @@ export default class TaskLocation extends Component {
       borderRadius: '.25rem',
       boxShadow: '0 4px 8px 0 rgba(0,0,0,0.12),0 2px 4px 0 rgba(0,0,0,0.08)',
       color: '#f1f3f5',
+      fontSize: '1.25rem',
+      fontWeight: 600,
       left: 20,
       padding: '2rem',
       position: 'fixed',
@@ -42,6 +44,8 @@ export default class TaskLocation extends Component {
       boxShadow: '0 15px 30px 0 rgba(0,0,0,0.11),0 5px 15px 0 rgba(0,0,0,0.08)',
       color: '#e7f5ff',
       display: 'flex',
+      fontSize: '1.25rem',
+      fontWeight: 600,
       height: '3rem',
       padding: '.25rem 5rem',
       zIndex: 100
@@ -50,7 +54,7 @@ export default class TaskLocation extends Component {
     return (
       <div style={{height: '100%', display: 'flex', flexDirection: 'column'}}>
         <header style={headerStyle}>
-          <span style={{color: '#dee2e6'}}>Next up:</span> {tasks[currentTaskIndex].title}
+          <span style={{color: '#dee2e6', fontWeight: 400}}>Next up:</span> {tasks[currentTaskIndex].title}
         </header>
         <DirectionsMap tasks={tasks} currentTaskIndex={currentTaskIndex} />
         <dib style={buttonWrapperStyle}>
