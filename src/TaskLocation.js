@@ -47,6 +47,7 @@ export default class TaskLocation extends Component {
       fontSize: '1.25rem',
       fontWeight: 600,
       height: '3rem',
+      justifyContent: 'center',
       padding: '.25rem 5rem',
       zIndex: 100
     };
