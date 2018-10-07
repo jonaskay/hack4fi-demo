@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 export default class TaskDescription extends Component {
   render() {
-    const image = require(`../assets/${this.props.task.image.file}`);
+    const image = require(`./assets/${this.props.task.image.file}`);
     const buttonStyle = {
       alignItems: 'center',
       background: '#228be6',
