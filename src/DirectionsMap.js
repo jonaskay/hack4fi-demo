@@ -39,7 +39,7 @@ export default class DirectionsMap extends Component {
     const lng = this.props.tasks[taskIndex].lng;
 
     return (
-      <div style={{width: '100%', flexGrow: 1, position: 'relative'}}>
+      <div style={{position: 'absolute', top: 0, bottom: 0, left: 0, right: 0}}>
         <Map onMapChange={map => this.initDirections(map)} lat={lat} lng={lng} />
       </div>
     );
