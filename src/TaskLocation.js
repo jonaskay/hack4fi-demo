@@ -13,14 +13,17 @@ export default class TaskLocation extends Component {
   }
 
   render() {
+    const {tasks, currentTaskIndex} = this.props;
     const buttonStyle = {height: '3rem'};
 
     return (
       <div style={{height: '100%', display: 'flex', flexDirection: 'column'}}>
-        <div style={{height: '3rem', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>Find this location</div>
-        <DirectionsMap tasks={this.props.tasks} currentTaskIndex={this.props.currentTaskIndex} />
+        <div style={{height: '3rem', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+          Next up: {tasks[currentTaskIndex].title}
+        </div>
+        <DirectionsMap tasks={tasks} currentTaskIndex={currentTaskIndex} />
         <button onClick={() => this.props.onButtonClick()} style={buttonStyle}>
-          I'm here! Let's start
+          Start
         </button>
       </div>
     );
