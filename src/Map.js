@@ -92,7 +92,7 @@ export default class map extends Component {
     ]
     const map = new window.google.maps.Map(this.refs.map, {
       center: {lat: this.props.lat, lng: this.props.lng},
-      zoom: 15,
+      zoom: 16,
       styles: styles,
       mapTypeControl: false,
       streetViewControl: false
