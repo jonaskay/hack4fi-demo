@@ -42,7 +42,7 @@ class App extends Component {
     }
 
     return (
-      <div style={{height: '100%'}}>
+      <div class="App" style={{height: '100%'}}>
         {view}
       </div>
     );
