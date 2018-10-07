@@ -18,8 +18,10 @@
         },
         {
           "body": "Take a photo of what is new and share it on social media."
-
-        }
+        
+        }, 
+        
+    
       ]
     },
     {
@@ -47,10 +49,10 @@
       "lat": 60.16901239775532,
       "lng": 24.945745468139652,
       "title": "Crispbread",
-      "description": "(Finnish people have always valued/been keen to know expert opinion/the views of the foreigners). Here a group of foreign visitors (experts) are tasting crispbread of the influential Elanto cooperative (started by bakers in 1905) in the 1930’s. The building at Aleksanterinkatu 9 was built as the modern Elanto department store in 1953. Crispbread, usually made of dark rye flour has maintained a strong stand as an everyday xxxxx enjoyed at home as well as part of school meals across Finland. Today the building still houses a shopping center, and you can still buy crispbread here! (Step in, wander to the crispbread shelves and grap a packet to join the long line (maybe not…?) of the foreign crispbread experts visiting Finland. Also one of the first self-service shops of Elanto in Helsinki was opened in the same cross roads in 1953)",
+      "description": "Finnish people have always been keen to know what foreigners think about Finland. In the photograph a group of foreign experts are tasting crispbread made by the influential Elanto Worker’s cooperative in the 1930’s. Elanto was founded by bakers in 1905. The building at Aleksanterinkatu 9 was built as the modern Elanto department store in 1953. Crispbread, usually made of dark rye flour has maintained a strong stand as an everyday cracker enjoyed at home as well as part of school meals across Finland. Today the building houses a shopping center, and you can still buy crispbread here!",
       "image": {
         "file": "nakkileipa.jpg",
-        "caption": "Unknown photographer: Foreign visitors tasting crispy bread produced by Co-operative Elanto. 1930's, Helsinki"
+        "caption": "Unknown photographer: Foreign visitors tasting crispy bread produced by Co-operative Elanto. 1930's, Helsinki. The Finnish Museum of Photography."
       },
       "steps": [
         {
@@ -60,7 +62,7 @@
           "body": "Wander between the shelves and look for “näkkileipä” - the Finnish crispbread."
         },
         {
-          "body": "Purchase some bread and have a taste! Document your experience and let us know what you think. How many shapes and types of crispbread did you find? What kind of flavours and textures did you experience? Which one was your favourite?"
+          "body": "Purchase some bread and have a taste! How many shapes and types of crispbread did you find? What kind of flavours and textures did you experience? Which one was your favourite? Document your experience."
         }
       ]
     },
@@ -92,17 +94,17 @@
       "lat": 60.17676612419965,
       "lng": 24.95020866394043,
       "title": "Korvapuusti",
-      "description": "Unioninkatu street’s name changes to Siltasaarenkatu street on the Pitkäsilta bridge. The bridge marks the border of bourgeois downtown and working class district of Kallio. In 1950’s Workers Co-operative Elanto opened this fashionable cafe, decorated after examples in Stockholm, on Siltasaarenkatu. Finland was slowly recovering from WWII and the people of Kallio started to afford small everyday luxuries like cup of coffee and a sweet bun a.k.a ‘pulla’.",
+      "description": "Unioninkatu street’s name changes to Siltasaarenkatu street on the Pitkäsilta bridge. The bridge marks the border of bourgeois downtown and working class district of Kallio. In 1950’s Workers Co-operative Elanto opened this fashionable cafe, decorated after examples in Stockholm, on Siltasaarenkatu. Finland was slowly recovering from the Second World War and the people of Kallio started to afford small everyday luxuries like cup of coffee and a sweet bun that is also known as ‘pulla’.",
       "image": {
         "file": "kahvila.jpg",
-        "caption": "Unknown photographer: Cafeteria at Siltasaarenkatu, 1950"
+        "caption": "Unknown photographer: Cafeteria at Siltasaarenkatu, 1950. The Finnish Museum of Photography."
       },
       "steps": [
         {
-          "body": "Find Siltasaarenkatu."
+          "body": "Take a walk, cross the bridge and look for Siltasaarenkatu street."
         },
         {
-          "body": "Find a cafe on that street and order coffee and pulla."
+          "body": "Find a cafe on that street and treat yourself with coffee and pulla."
         },
         {
           "body": "Experience the smells of the cafe - they are the same as 68 years ago."
