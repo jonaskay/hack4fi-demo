@@ -4,7 +4,7 @@
 
 ## About
 
-This is a demo app built during the [Hack4FI 2018](http://hack4.fi/) hackathon. You can use Time Träveller to tour around Helsinki while completing fun tasks. The insipiration for the project comes from [The Finnish Museum of Photography](https://www.valokuvataiteenmuseo.fi/en) and their albums available on [Flickr](https://www.flickr.com/photos/valokuvataiteenmuseo/albums/with/72157676384900225). Time Träveller is optimized for mobile devices.
+This is a demo app built during the [Hack4FI 2018](http://hack4.fi/) hackathon ([link to the Hackdash project page](https://hackdash.org/projects/5bb87e1e96a2952c33e3013c)). You can use Time Träveller to tour around Helsinki while completing fun tasks. The insipiration for the project comes from [The Finnish Museum of Photography](https://www.valokuvataiteenmuseo.fi/en) and their albums available on [Flickr](https://www.flickr.com/photos/valokuvataiteenmuseo/albums/with/72157676384900225). Time Träveller is optimized for mobile devices.
 
 ## Adding Tasks
 
