@@ -1,4 +1,5 @@
 # Hack4FI Demo: Time Träveller
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1783cf66-385d-45dc-940a-f7b2afd74993/deploy-status)](https://app.netlify.com/sites/hack4-fi/deploys)
 
 ![Screenshot of Time Träveller](screenshot.png "Screenshot of Time Träveller")
 
